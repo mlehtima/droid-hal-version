@@ -64,8 +64,8 @@ BuildRequires: droid-config-pulseaudio-settings
 
 # Haptics
 %if 0%{?have_vibrator:1} && 0%{?!have_ffmemless:1}
-BuildRequires: ngfd-plugin-droid-vibrator
-BuildRequires: qt5-feedback-haptics-droid-vibrator
+BuildRequires: ngfd-plugin-native-vibrator
+BuildRequires: qt5-feedback-haptics-native-vibrator
 %endif
 
 # Haptics with ffmemless
